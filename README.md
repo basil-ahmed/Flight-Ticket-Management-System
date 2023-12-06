@@ -9,7 +9,6 @@ Information of flight-tickets is to be inserted/read from either the interface o
 Each record is provided in ASCII format and spans at most one line of text. The user interface should allow a user to navigate and perform all the tasks/features listed in the following section.
         
 It is a program utilizing the object-oriented programming (OOP) principles and appropriate data structures. You are required to use Hash Table as the primary data structure to implement the application. Use separate chaining to handle collisions.
-You should implement all the data structures manually, STL based containers are not allowed to be used here.
 
 ## Implementation
 
@@ -89,8 +88,5 @@ NOTE: Make sure to handle the cases of the input keys provided by the user, for 
   - Exits the program
   
 ## Report
-- You need to implement three different hash functions and evaluate the performance of each hash function in terms of the number of collisions when applied on the same dataset files (use the supplementary files).
-- You must document the description and design of each hash function along with their evaluation results in a pdf report.
-- The hash function causing the least number of collisions, on average when applied to the 3 dataset files, should be set as the default hash function to use by your system.
- 
+
 [The Report](https://github.com/basil-ahmed/Flight-Ticket-Management-System/blob/main/%20Report.pdf)
